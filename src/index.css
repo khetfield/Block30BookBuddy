@@ -1,0 +1,249 @@
+  button {
+    border: none;
+    font-size: 12px;
+    color: white;
+    background: darkgreen;
+    border-radius: 5px;
+    min-width: 100px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .book_button {
+    background: white;
+    border: 1px solid darkgreen;
+    color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .red_button {
+    background: white;
+    border: 1px solid darkred;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  #root {
+    padding-top: 75px;
+  }
+  #logo-image {
+    width: 25x;
+    margin-right: 15px;
+  }
+  nav {
+    height: 80px;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: [first] 25% [line2] 50% [line3] 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navLinks {
+    display: flex;
+    justify-content: right;
+    .navLinks > a {
+        font-size: 14px;
+      }
+  }
+  .logos {
+    color: lightgreen;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .siteName {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .link {
+    color: black;
+  }
+  .book_container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 350px;
+    border: 2px solid slategray;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 6px;
+    background: white;
+  }
+  .book_container > h2 {
+    font-size: 20px;
+  }
+  .book_container > h1 {
+    font-size: 26px;
+    margin: 8px;
+  }
+  .book_container > img {
+    width: 250px;
+    height: 350px;
+    border-radius: 4px;
+  }
+  .search_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+  .search_bar {
+    display: flex;
+    width: 350px;
+    border: 2px solid lightgreen;
+    border-radius: 6px;
+    align-items: center;
+    padding: 10px;
+  }
+  .search_bar > input {
+    width: 320px;
+    border: none;
+    border-radius:6px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    font-size: 16px;
+  }
+  .searchIcon {
+    color: lightgreen;
+  }
+  .single_book_container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 70%;
+    min-width: 325px;
+    border: 2px solid slategray;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 6px;
+    background: white;
+  }
+  .single_book_container > h2 {
+    font-size: 16px;
+    margin: 6px;
+  }
+  .single_book_container > h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 6px;
+  }
+  .single_book_container > img {
+    border-radius: 6px;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 350px;
+  }
+  .button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .button > button {
+    margin: 0px 5px 0px 0px;
+  }
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+  }
+  .form_container > a {
+    color: darkgray;
+    font-size: 12px;
+  }
+  .form_container {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 70%;
+    min-width: 350px;
+    border: 2px solid slategray;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    padding-bottom: 25px;
+  }
+  .login_form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .login_error {
+    color: red;
+    font-size: 16px;
+  }
+  .account_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  .account_box {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 65%;
+    min-width: 350px;
+    border: 2px solid slategray;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 8px;
+    background: white;
+    padding-bottom: 25px;
+  }
+  .account_box > ul {
+    text-align: left;
+  }
+  .user_books {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .user_books_container {
+    border: 2px solid darkgreen;
+    border-radius: 6px;
+    min-width: 230px;
+    background-color: white;
+    padding: 12px;
+  }
+  .account_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+  }
